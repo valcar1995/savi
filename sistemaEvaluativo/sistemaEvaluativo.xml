@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone='yes'?>
+
+<sistemas>
+ <sistema nombre="sistema normal" notaInferior="3">
+ 
+    <rangosNota>
+	<rangoNota nombre="bajo" desde="0" hasta="3"></rangoNota>
+	<rangoNota nombre="inferior" desde="3" hasta="4"></rangoNota>
+	<rangoNota nombre="básico" desde="3" hasta="4"></rangoNota>
+	</rangosNota>
+	
+	
+	<periodos>
+	  <periodo nombre="1" porcentaje="25"></periodo>
+	  <periodo nombre="2" porcentaje="25"></periodo>
+	  <periodo nombre="3" porcentaje="25"></periodo>
+	  <periodo nombre="4" porcentaje="25"></periodo>
+	</periodos>
+	
+	
+ </sistema>
+</sistemas>

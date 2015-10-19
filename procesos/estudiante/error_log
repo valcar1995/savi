@@ -1,0 +1,10 @@
+[09-Jun-2015 11:21:46 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sefu/public_html/procesos/conexion.php on line 10
+[09-Jun-2015 11:21:50 America/Bogota] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sefu/public_html/procesos/conexion.php on line 11
+[09-Jun-2015 11:21:51 America/Bogota] PHP Warning:  mysql_query(): Too many connections in /home/sefu/public_html/procesos/estudiante/acomuladaEP.php on line 32
+[09-Jun-2015 11:21:51 America/Bogota] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sefu/public_html/procesos/estudiante/acomuladaEP.php on line 32
+[09-Jun-2015 11:21:51 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/sefu/public_html/procesos/estudiante/acomuladaEP.php on line 33
+[09-Jun-2015 11:22:11 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sefu/public_html/procesos/conexion.php on line 10
+[09-Jun-2015 11:22:11 America/Bogota] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sefu/public_html/procesos/conexion.php on line 11
+[09-Jun-2015 11:22:11 America/Bogota] PHP Warning:  mysql_query(): Too many connections in /home/sefu/public_html/procesos/estudiante/acomuladaEP.php on line 32
+[09-Jun-2015 11:22:11 America/Bogota] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sefu/public_html/procesos/estudiante/acomuladaEP.php on line 32
+[09-Jun-2015 11:22:11 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/sefu/public_html/procesos/estudiante/acomuladaEP.php on line 33

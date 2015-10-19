@@ -1,0 +1,283 @@
+
+#itemPro2{
+	background-color:rgba(255,255,255,1);
+	color:rgba(0,51,255,1);	
+}
+
+
+#tituloPlanilla{
+	font-size:22px;
+	margin-top:-60px;
+	position:relative;
+	z-index:3;
+	color:rgba(255,255,255,1);
+	display:inline-table;
+	padding:10px;
+}
+
+#tituloPlanilla span{
+	font-weight:bold;
+}
+
+
+
+.itemsMenuPlanilla{
+	padding:5px;
+	background-color:rgba(102,102,102,1);
+	color:rgba(255,255,255,1);
+	display:inline-table;
+	width:220px;
+	cursor:pointer;
+	font-size:24px;
+	font-weight:bold;
+	position:relative;
+	z-index:2;	
+}
+
+#itemselPlanilla{
+	background-color:rgba(255,255,255,1);
+	color:rgba(102,102,102,1);
+	border:1px solid rgba(102,102,102,1);
+	border-bottom:0px solid;	
+}
+
+#contenTodoPlan{
+	border-top:1px solid rgba(102,102,102,1);
+	height:200px;
+	margin-top:-1px;
+		
+}
+
+.recibeConten{
+	display:none;	
+}
+
+#contenPlanilla{
+	display:inline-table;
+	text-align:left;
+	padding-top:10px;
+}
+
+#contenConceptosEva{
+	display:inline-table;	
+}
+
+
+.titulosTablaNuevoConcepto{
+	font-size:18px;	
+}
+.camposNuevoConcepto{
+	padding:5px;	
+}
+
+#camDescipConcept{
+	width:400px;
+}
+#camPorcentConcept{
+	width:80px;	
+}
+
+
+
+.btns{
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:18px;
+	color:rgba(255,255,255,1);
+	border:0px solid;
+	background-color:rgba(0,102,153,1);
+	border-radius:3px;
+	cursor:pointer;
+}
+
+.btns:hover{
+	background-color:rgba(102,102,102,1);	
+}
+
+#tablaNuevoConcepto{
+	background-color:rgba(204,204,204,1);
+	padding:5px;
+	padding-left:0px;
+	border-radius:0px 10px 0px 0px;	
+}
+
+#tablaNuevoConcepto tr td{
+	padding-right:15px;	
+}
+
+#infoPlan tr td span{
+	font-weight:bold;
+
+}
+
+.camposNotas{
+	width:100%;
+	height:100%;
+	text-align:center;
+	border:0px solid;
+	outline:0px;
+		
+}
+
+.camposNotas:focus{
+	box-shadow:0px 0px 5px #000000 inset;
+}
+
+.tdNotas{
+	width:70px;
+	height:30px;
+}
+
+.circulosConceptos{
+	background-color:rgba(0,102,204,1);
+	color:rgba(255,255,255,1);
+}
+
+.titlulosTr{
+	background-color:rgba(153,153,153,1);
+	color:rgba(255,255,255,1);
+	font-size:18px;
+	font-weight:bold;	
+}
+
+.camposFaltas, .camposNotasR{
+	width:50px;
+	height:90%;
+	border:1px solid;
+	text-align:center;	
+}
+
+.camposNotasR{
+	border:2px solid;
+	padding:3px;	
+}
+
+.imgCarga{
+	position:absolute;
+	margin-top:-20px;
+	margin-left:4%;	
+}
+
+.imgCarga2{
+	display:inline-table;
+	width:15px;	
+}
+
+.imgOk{
+	width:10px;
+	height:10px;
+}
+
+.btnsEnvio{
+	display:none;	
+}
+
+.imagenesElimConcept{
+	width:30px;
+	height:30px;
+	cursor:pointer;	
+}
+
+.camposConceptoTabla,.camposConceptoTabla2{
+	width:350px;
+	padding:3px;
+	outline:0px;
+	
+}
+
+.camposConceptoTabla{
+	border:2px solid rgba(255,255,255,1) ;	
+}
+
+.camposConceptoTabla2{
+	border:2px solid rgba(100,100,100,1) ;	
+}
+
+.camposPorcentTabla,.camposPorcentTabla2{
+	width:50px;
+	padding:3px;
+	outline:0px;
+	
+}
+
+.camposPorcentTabla{
+	border:2px solid rgba(255,255,255,1) ;	
+}
+
+.camposPorcentTabla2{
+	border:2px solid rgba(100,100,100,1) ;	
+}
+
+.indexConceptos{
+	background-color:rgba(0,102,204,1);
+	color:rgba(255,255,255,1);
+	padding:6px;
+	font-weight:bold;
+}
+
+/* indicadores de logor*/
+
+#contenTodoIndi{
+	padding-top:20px;
+	border-left: 15px solid #309eb7;
+	border-right: 15px solid #309eb7;
+	text-align:left;
+	display:inline-table;
+}
+
+#contenTodoIndi h1{
+	background-color:#309eb7;
+	padding:3px;
+	padding-left:10px;
+}
+
+#contentablaIndi{
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color:#dddddd;	
+}
+
+#tablaIndi{
+	min-width:600px;
+	background-color:#f9f9f9;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+}
+
+#tablaIndi tr:hover{
+	background-color:rgba(240,240,240,1);
+}
+#titulotbindi{
+	font-weight:bold;
+}
+
+.dvscheckbox{
+	text-align:center;
+	width:100%px;
+}
+
+#tablaIndi tr td{
+	border-bottom:1px solid #dddddd;
+	padding:5px;
+}
+
+#sinRecuperaciones{
+	font-size:24px;
+	padding-top:50px;
+	color:rgba(102,102,102,1);
+	font-weight:bold;	
+}
+
+#contenRecuper{
+	display:inline-table;
+	text-align:left;	
+}
+
+.tdPierdeMat{
+	background-color:rgba(153,0,0,0.3);	
+}
+
+.tdGanaMat{
+	background-color:rgba(0,153,51,0.3);	
+}

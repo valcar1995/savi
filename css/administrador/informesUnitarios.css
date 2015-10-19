@@ -1,0 +1,157 @@
+
+
+.contenBarrasLoader{
+	text-align:center;
+	display:none;
+}
+
+.barrasLoader{
+	height:10px;
+}
+
+.errordatos{
+	font-size:24px;
+	color:rgba(153,0,0,1);	
+}
+
+.lbltitulosSelect{
+	color:rgba(153,153,153,1);
+	font-weight:bold;
+	font-size:18px;
+	margin-left:10px;
+}
+
+.selectores{
+	padding:5px;	
+}
+
+.btnsEnvio{
+	padding:5px;
+	font-size:18px;
+	background-color:rgba(0,102,153,1);
+	color:rgba(255,255,255,1);
+	border-radius:3px;
+	text-decoration:none;
+	border:0px solid;
+	cursor:pointer;	
+}
+
+.btnsEnvio:hover{
+	background-color:rgba(102,102,102,1);	
+}
+
+/*Informe fianl por periodo*/
+
+.divContenAsF{
+	padding:5px;
+	height:32px;	
+}
+
+.tdsAreas{
+	text-align:center;
+	font-weight:bold;
+	padding:5px;	
+}
+
+.tdsInfoAreas{
+	padding-top:10px;
+	margin-top:10px;
+}
+
+.dvsAsignaturas{
+	float:left;
+}
+
+.dvsFaltas{
+	float:right;
+}
+.dvsAsignaturas,.dvsFaltas{
+border:2px solid;
+padding:5px;		
+}
+
+.contenIndicadores{
+	text-align:left;	
+}
+
+.titIndicadores{
+	font-weight:bold;	
+}
+
+.contenIndicadores{
+	padding:5px;	
+}
+
+.tdIndicadores{
+	border-top:0px solid;	
+}
+
+.ulIndicadores{
+	margin-left:-20px;
+	margin-top:3px;	
+}
+
+.tdsNotasAsing,.tdsAcomuladaAnio{
+	font-size:28px;
+	text-align:center;
+	font-weight:bold;	
+}
+
+.spnNomAsignaturas,.spnFaltas,.spnNegrita{
+	font-weight:bold;	
+}
+
+.spnPorcentajeAsig{
+	font-weight:normal;
+	font-size:16px;
+}
+
+.dvContenFinalArea{
+	width:100%;
+}
+.tblFilanArea{
+	float:right;
+	min-width:300px;	
+}
+
+.tdValoracionFinalArea{
+	background-color:rgba(233,233,233,1);
+	font-weight:bold;
+	font-size:34px;
+	min-width:100px;
+	padding:5px;
+	text-align:center;
+}
+
+.logoInforme{
+	width:114px;
+	height:104px;	
+}
+
+.nombreCentroInforme{
+	font-size:26px;
+	font-weight:bold;	
+}
+
+.sistemaEvaluativoInforme{
+	text-decoration:underline;
+	font-size:20px;
+	font-weight:bold;	
+}
+
+.complementoInforme{
+	text-align:left;
+}
+
+.promedioTotalAreas{
+	font-weight:bold;	
+}
+
+.promedioTotalAreas span{
+	font-size:24px;	
+}
+
+
+/*fin de informe fnal por periodo*/
+
+

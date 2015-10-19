@@ -1,0 +1,8 @@
+body{height:100%; overflow:hidden; background-color:rgba(0,0,0,0.5); }
+*{margin:0px; padding:0px; }
+
+#contenElige{
+	position:relative;
+	z-index:2;
+	margin-top:10%;
+}

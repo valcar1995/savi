@@ -1,0 +1,91 @@
+#li3{
+background-color:rgba(102,102,102,1);	
+}
+
+.btns{
+    padding:5px;
+	font-size:18px;
+	background-color:rgba(0,102,153,1);
+	color:rgba(255,255,255,1);
+	border-radius:3px;
+	text-decoration:none;
+	border:0px solid;
+	cursor:pointer;		
+}
+
+.btns:hover{
+	background-color:rgba(102,102,102,1);	
+}
+
+.titulosCampos{
+	font-size:18px;
+	color:rgba(102,102,102,1);	
+}
+
+.campos{
+	padding:5px;
+	font-size:18px;	
+}
+
+.titulosTr td{
+	text-align:center;
+	padding:5px;
+	background-color:rgba(102,102,102,1);
+	color:rgba(255,255,255,1);	
+}
+
+.trNormal td{
+	padding:5px;
+	text-align:left;
+}
+
+.tdPierde{
+	background-color:rgba(255,0,0,0.3);	
+}
+.dvPierde{
+	background-color:rgba(255,0,0,0.7);	
+}
+
+.tdGana{
+	background-color:rgba(0,153,51,0.3);	
+}
+.dvGana{
+	background-color:rgba(0,153,51,0.7);
+}
+
+.tdMateria{
+	cursor:pointer;	
+}
+
+.trTotales td{
+	background-color:rgba(204,204,204,1);
+	padding:5px;
+	color:rgba(0,0,0,1);	
+}
+
+.tdMateria:hover{
+	background-color:rgba(0,102,204,0.3);	
+}
+
+.divMateriaNotas{
+	font-size:18px;
+	padding:7px;
+	color:rgba(255,255,255,1);	
+}
+
+.divsRecuperacion{
+	width:25px;
+	height:20px;
+	background-color:rgba(255,204,0,1);
+	color:rgba(0,0,102,1);
+	font-size:18px;
+	text-align:center;
+	border:1px solid rgba(0,0,102,1);
+	margin-right:-5px;
+	margin-top:-5px;
+	cursor:pointer;
+	float:right;	
+}
+.divsRecuperacion span{
+	font-size:16px;	
+}

@@ -1,0 +1,57 @@
+
+
+.informes{
+	float:left;
+	height:90px;
+	margin-left:10px;
+	margin-top:10px;		
+}
+
+
+.imgInformes{
+	width:50px;
+	height:70px;	
+}
+
+.tituloInforme{
+	color:rgba(153,153,153,1);	
+}
+
+.resultadosTareas{
+	display:none;	
+}
+
+#toltip{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:10;
+	display:none;
+}
+
+.descripcionInforme{
+	display:none;	
+}
+
+#descripcionToltip{
+	width:150px;
+	max-height:200px;
+	background-color:rgba(255,255,255,1);
+	box-shadow:0px 0px 15px #000000;
+	text-align:center;
+	position:relative;
+	text-align:justify;
+	overflow:auto;
+	padding:5px;
+		
+}
+
+#imgArribaResult{
+	position:absolute;
+	width:20px;
+	height:10px;
+	margin-left:70px;
+	margin-top:-10px;
+	z-index:5;	
+}
+

@@ -1,0 +1,133 @@
+
+*{margin:0px; padding:0px;}
+
+#cabesa{
+	padding:10px;
+	background-color:#306088;
+	color:rgba(255,255,255,1);
+	min-height:50px;
+	min-width:900px;
+	position:relative;
+	z-index:2; 
+	box-shadow:0px 0px 15px	 #000000;	
+}
+
+#logo{
+	width:150px;
+	height:50px;
+	float:left;
+}
+
+#contenPeriodo{
+	float:left;
+	font-size:18px;
+	margin-top:15px;
+	margin-left:10px;
+}
+
+#contenPeriodo span{
+	font-weight:bold;	
+}
+
+.iconosMenu{
+	float:right;
+	width:50px;
+	height:50px;
+	cursor:pointer;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+
+#itemMenuSelect{
+	background-color:white;	
+}
+
+a{
+	text-decoration:none;	
+}
+
+#menu{
+	float:left;
+	background-color:rgba(153,153,153,1);
+	color:white;
+	font-size:24px;
+	min-height:580px;
+}
+
+body{
+	height:100%;	
+}
+
+
+
+#menu ul li{
+	padding:10px;
+	cursor:pointer;
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+
+#menu ul li a{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+
+#menu ul li:hover{
+	background-color:rgba(102,102,102,1);	
+}
+
+.itemsEst{
+	float:right;
+	font-size:24px;
+	color:rgba(255,255,255,1);
+	text-align:center;
+	padding:10px;
+}
+
+
+
+#contenPerfilUsu{
+	height:0px;	
+}
+
+#perfilUsu{
+	float:right;
+	background-color:#306088;
+	position:relative;
+	top:-51px;
+	border-top:1px solid rgba(153,153,153,1);
+	z-index:0;
+	max-height:30px;
+	padding:10px;
+	-webkit-transition:all 0.5s ease-in;
+	text-align:center;
+}
+
+#perfilUsu:hover{
+	top:0px;
+}
+
+#nombrePerfil{
+	font-size:18px;
+	font-weight:bold;
+	color:rgba(255,255,255,1);	
+}
+
+#imagenPerfil{
+	width:50px;
+	height:50px;
+	border-radius:10px;
+	position:relative;
+	float:right;
+	background-color:rgba(204,204,204,1);
+}
+
+#imagenPerfil:hover{
+	background-color:rgba(224,224,224,1);	
+}
+	
+	
+
+
+

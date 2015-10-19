@@ -1,0 +1,157 @@
+#contenBusqueda{
+	margin-top:50px;	
+}
+
+#resultados{
+	max-width:1000px;
+	overflow:auto;
+}
+
+#pagin{
+	max-width:1000px;
+}
+
+.trOscuros{
+	background-color:rgba(234,234,234,1);	
+}
+
+.trBlancos{
+	background-color:rgba(255,255,255,1);
+}
+
+.trOscuros td, .trBlancos td{
+	padding-left:3px;
+	padding-right:3px;		
+}
+
+.imgEditar, .imgEliminar{
+	width:30px;
+	height:30px;
+	cursor:pointer;	
+}
+
+.btnsPag{
+	display:inline-table;
+	width:30px;
+	height:20px;
+	background-color:rgba(102,102,102,1);
+	color:rgba(255,255,255,1);
+	cursor:pointer;
+	border:0px solid;
+	margin:1px;	
+}
+
+.tablasBusquedas{
+	min-width:500px;	
+}
+
+.titulosTablas{
+	font-size:18px;
+	font-weight:bold;
+	background-color:rgba(102,102,102,1);
+	color:rgba(255,255,255,1);	
+}
+
+.titulosTablas td{
+	padding:5px;	
+}
+
+.filtros{
+	font-size:18px;
+	padding:3px;	
+}
+#pagSelected{
+	background-color:rgba(0,102,204,1);	
+}
+
+.complementosTablas{
+	color:rgba(0,153,51,1);
+}
+
+#fondo{
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:1;
+	display:none;	
+}
+
+#divFormularioEdicion{
+	height:0px;
+	margin-top:-10px;
+	position:relative;
+	z-index:2;
+	display:none;	
+}
+
+#contenFormularioEdicion{
+	width:600px;
+	padding:5px;
+		
+}
+
+.btnsCerrar{
+	width:30px;
+	height:30px;
+	text-align:center;
+	font-size:18px;
+	background-color:rgba(102,102,102,1);
+	color:rgba(255,255,255,1);
+	font-weight:bold;
+	float:right;
+	margin-right:-15px;
+	cursor:pointer;
+	color:rgba(255,255,255,1);
+	border:0px solid;
+	border-radius:20px;
+	position:relative;
+	top:20px;
+	z-index:3;
+}
+
+.btnsCerrar:hover{
+	background-color:rgba(0,102,204,1);	
+}
+
+.dvsContrasenas{
+	-webkit-filter: blur(6px);
+	-moz-filter: blur(6px);
+	-ms-filter: blur(6px);
+	-o-filter: blur(6px);
+	filter: blur(6px);
+	cursor:pointer;
+}
+
+.dvsContrasenas:hover{
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-ms-filter: blur(0px);
+	-o-filter: blur(0px);
+	filter: blur(0px);
+}
+
+.imgLogosCent{
+	width:50px;
+	height:50px;	
+}
+
+.btnsEnvio{
+	margin-left:10px;
+	padding:5px;
+	font-size:18px;
+	background-color:rgba(0,102,153,1);
+	color:rgba(255,255,255,1);
+	border-radius:3px;
+	text-decoration:none;
+	border:0px solid;
+	cursor:pointer;	
+}
+
+.btnsEnvio:hover{
+	background-color:rgba(102,102,102,1);	
+}
+
+
+
+
